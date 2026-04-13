@@ -5,7 +5,7 @@
 ## 一、快速开始
 
 ### 1. Python 版本
-建议使用 Python 3.10 或 3.11。
+建议使用 Python 3.10 或 3.11
 
 ### 2. 环境配置
 ```pwsh
@@ -23,7 +23,7 @@ conda activate shoppers
 ```pwsh
 jupyter notebook
 ```
-运行笔记本:  `Online Shoppers Intention Analysis.ipynb`。
+运行笔记本:  `Online Shoppers Intention Analysis.ipynb`
 
 ## 二、代码结构（Jupyter Notebook，7 个 Section）
 
