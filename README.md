@@ -20,6 +20,4 @@ jupyter notebook
 ```
 运行笔记本:  `Online Shoppers Intention Analysis.ipynb`。
 
-## 当前进度
-- 已完成 Section 1（数据加载与探索性分析 EDA）所需代码与可视化。
 
