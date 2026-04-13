@@ -14,7 +14,7 @@ conda create -n shoppers python=3.10 -y
 conda activate shoppers
 pip install -r requirements.txt
 
-# or使用 conda environment.yml
+# or 使用 conda environment.yml
 conda env create -f environment.yml
 conda activate shoppers
 ```
