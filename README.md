@@ -5,7 +5,7 @@
 ## 📐 项目概览
 
 - Project : Online Shoppers Intention Analysis
-- Type    : 数据分析 + 机器学习建模（Jupyter Notebook 单文件项目）
+- Type    : 数据分析 + 机器学习建模（Jupyter Notebook）
 - Language: Python 3.10
 - Dataset : UCI Online Shoppers Purchasing Intention Dataset（12330 条电商用户浏览记录）
 - Goal    : 预测用户是否会产生购买行为（Revenue = True/False）
