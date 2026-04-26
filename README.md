@@ -2,7 +2,34 @@
 
 基于 [UCI Online Shoppers Purchasing Intention Dataset](https://archive.ics.uci.edu/dataset/468/online+shoppers+purchasing+intention+dataset) 的数据分析与建模项目。
 
-## 一、快速开始
+## 📐 项目概览
+
+- Project : Online Shoppers Intention Analysis
+- Type    : 数据分析 + 机器学习建模（Jupyter Notebook 单文件项目）
+- Language: Python 3.10
+- Dataset : UCI Online Shoppers Purchasing Intention Dataset（12330 条电商用户浏览记录）
+- Goal    : 预测用户是否会产生购买行为（Revenue = True/False）
+- 核心依赖：pandas、numpy、scikit-learn（分类/聚类/评估）、seaborn / matplotlib（可视化）、imbalanced-learn（已声明但实际未使用，改用了 class_weight='balanced'）
+
+
+
+## 📁 文件结构
+```txt
+Online-Shoppers-Intention-Analysis/
+├── data/
+│   └── online_shoppers_intention.csv   — UCI 数据集（12330×18）
+├── Online Shoppers Intention Analysis.ipynb  — 唯一的代码文件（核心）
+├── requirements.txt   — conda 导出的完整环境依赖
+├── environment.yml    — conda 环境配置
+├── README.md          — 项目说明
+└── .gitignore
+```
+## 🔀 整体数据流
+<p align="center">
+  <img src="image\online_shoppers_ml_pipeline.svg" width="800" alt="整体数据流图">
+</p>
+
+## 快速开始
 
 ### 1. Python 版本
 建议使用 Python 3.10 或 3.11
@@ -25,7 +52,7 @@ jupyter notebook
 ```
 运行笔记本:  `Online Shoppers Intention Analysis.ipynb`
 
-## 二、代码结构（Jupyter Notebook，7 个 Section）
+## 代码结构（Jupyter Notebook，7 个 Section）
 
 **Section 1 — 数据加载与探索性分析（EDA）**
 - 加载数据，`.info()`, `.describe()`, 缺失值检查
