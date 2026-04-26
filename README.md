@@ -9,7 +9,7 @@
 - Language: Python 3.10
 - Dataset : UCI Online Shoppers Purchasing Intention Dataset（12330 条电商用户浏览记录）
 - Goal    : 预测用户是否会产生购买行为（Revenue = True/False）
-- 核心依赖：pandas、numpy、scikit-learn（分类/聚类/评估）、seaborn / matplotlib（可视化）、imbalanced-learn（已声明但实际未使用，改用了 class_weight='balanced'）
+- 核心依赖：pandas、numpy、scikit-learn（分类/聚类/评估）、seaborn / matplotlib（可视化）、imbalanced-learn
 
 
 
